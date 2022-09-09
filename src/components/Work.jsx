@@ -1,6 +1,7 @@
 import React from 'react';
-import img1 from "../assets/one.png";
-import img2 from "../assets/two.png";
+import mik from "../assets/Mik.png";
+import port from "../assets/port.png";
+import game from "../assets/game.png";
 
 function Work() {
   return (
@@ -18,21 +19,21 @@ function Work() {
 
           {/* Grid Item */}
         <div
-          style={{ backgroundImage: `url(${img1})` }}
+          style={{ backgroundImage: `url(${game})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              React JS Application
+             JavaScript(canvas)Game
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+             {/*  <a href='/'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Game Link
                 </button>
-              </a>
-              <a href='/'>
+              </a> */}
+              <a href='https://github.com/louisrabit/super-luigi-run'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   GitHub
                 </button>
@@ -41,21 +42,22 @@ function Work() {
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url(${img1})` }}
+          style={{ backgroundImage: `url(${mik})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              React JS Application
+              Crud Web App
+              <p>MiKItUp</p>
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+             {/*  <a href='/'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Karaoke Link
                 </button>
-              </a>
-              <a href='/'>
+              </a> */}
+              <a href='https://github.com/aarestigue/project_2'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   GitHub
                 </button>
@@ -65,21 +67,21 @@ function Work() {
         </div>
           {/* Grid Item */}
         <div
-          style={{ backgroundImage: `url(${img1})` }}
+          style={{ backgroundImage: `url(${port})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              React JS Application
+              ReactJs / Tailwind Portfolio
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+              {/* <a href='/'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Porfolio 
                 </button>
-              </a>
-              <a href='/'>
+              </a> */}
+              <a href='https://github.com/louisrabit/Portfolio'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   GitHub
                 </button>

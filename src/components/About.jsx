@@ -16,16 +16,20 @@ function About() {
     <p>Hi , I`m Luis nice to meet you . 
     </p>
      <p> Junior full stack web developer with a background in biomedical science and healthcare.
-I finish recently an Intensive Web Developer Bootcamp .
+I finish recently an Intensive Web Developer Bootcamp.
  </p>
+
+
+ 
 </div>
 <div>
-    <p> I'm passionate about helping people .
+    <p > I'm passionate about helping people .
     I'm very ambitious, curious, friendly, optimistic, and adventurous, with a PASSION FOR WEB DEVELOPMENT.</p>
     <p>This new world of programming is a great adventure for me, a real challenge, and I love it!
  </p>
-</div>
+ </div>
 <div/> 
+
     </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Logo from "../assets/logo1.png"
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import {Link} from "react-scroll";
@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className='fixed w-full h-[88px] flex justify-between items-center px-4 bg-[#3d3b3b] text-gray-300'>
 <div>
-    <img src={Logo} alt="Image Logo" style={{width: "88px"}}/>
+    <img src={Logo} alt="ImageLogo" style={{width: "88px"}}/>
 </div>
 
     {/*  Menu */}
@@ -82,7 +82,7 @@ function Navbar() {
     </li>
     <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-700'>
       <a className='flex justify-between items-center w-full text-gray-300' 
-      /* href="/" */ >
+      href="https://www.canva.com/design/DAFKJvpeoeY/EemLVFcY1B4xyZblKQsM7w/view?utm_content=DAFKJvpeoeY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"  >
         
        Email: <HiOutlineMail size={25} />
       </a>
@@ -90,7 +90,7 @@ function Navbar() {
    
     <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-700'>
       <a className='flex justify-between items-center w-full text-gray-300' 
-      href="">
+      href="https://www.canva.com/design/DAFKJvpeoeY/EemLVFcY1B4xyZblKQsM7w/view?utm_content=DAFKJvpeoeY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
        Resume <BsFillPersonLinesFill size={25}/>
       </a>
     </li>
