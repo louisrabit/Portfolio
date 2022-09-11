@@ -14,10 +14,10 @@ function Home() {
   I finish  9 weeks , Intensive Bootcamp in IronHack 
 </p>
 
- <div >
+{/*  <div >
   <button  className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-500  hover:border-yellow-500 '>View My Work
    <HiArrowNarrowRight className='ml-3'   /></button>
-</div>
+</div> */}
 
 </div>
     </div>
